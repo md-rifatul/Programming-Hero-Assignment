@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Assignment-2 </title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+    </style>
+
+
+</head>
+
+<body class="bg-black px-4 xl:px-0">
+    <!-- header part start -->
+    <header class="max-w-[1280px] mx-auto">
+        <!-- navbar part start -->
+        <nav class="flex justify-between my-10 items-center">
+            <div>
+                <a href="#">
+                    <h1 class="text-[#FFFFFF] font-extrabold font-manrope text-[32px]">LOGO</h1>
+                </a>
+            </div>
+            <div class="hidden lg:block">
+                <ul class="text-[#FFFFFF] flex gap-10 font-normal text-[16px]">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#" class="bg-[#E6AA32] px-8 py-3 rounded-full text-[#000000] font-medium">Download
+                            CV</a></li>
+                </ul>
+            </div>
+            <div class="lg:hidden">
+                <img src="./image/align-right.png" alt="sidebar">
+            </div>
+        </nav>
+    </header>
+
+    <!-- main part start -->
+    <main class="border-t-[1px] border-[#1C1C21]">
+        <!-- banner part start -->
+        <section
+            class="banner flex justify-between items-center xl:ml-[240px] md:mt-10 flex-col xl:flex-row">
+
+            <div class="w-full lg:w-1/2 order-2 lg:order-1 space-y-7">
+                <p class="text-white">Web Developer</p>
+                <h1 class="text-5xl text-[#FFFFFF] font-extrabold uppercase">
+                    HI! This is <br />
+                    <span class="text-[#E6AA32]">MD. RIFATUL ISLAM</span>
+                </h1>
+                <p class="text-[#797C86] text-xl">
+                    As a web designer with four years of experience, I specialize in
+                    creating visually appealing and user-friendly websites. My expertise
+                    includes responsive design, UI/UX principles, and collaborating with
+                    clients to bring their visions to life.
+                </p>
+                <div class="flex gap-7 flex-col sm:flex-row">
+                    <button class="h-[48px] w-[188px] bg-[#E6AA32] rounded-full text-xl">Let’s Connect</button>
+                    <div class="flex gap-2 p-2">
+                        <p class="text-white">View Portfolios</p>
+                        <a href="#">
+                            <svg xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 text-white">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="image w-full lg:w-1/2 order-1 lg:order-2 h-[650px]">
+                <div class="w-full h-full relative">
+                    <div class="flex w-full h-full justify-end items-center">
+                        <div class="lg:w-4/5 w-full h-[350px] bg-[#17171A] rounded-l-full"></div>
+                    </div>
+                    <img class="text inline-block absolute -mt-[650px] md:ms-[200px] ms-[30px] w-[400px] h-[500px]"
+                        src="./image/MyPhoto.png" alt="">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="container flex flex-col lg:flex-row lg:justify-between items-center">
+            
+        </section> -->
+
+        <!-- Specialties part start -->
+        <section class="max-w-[1280px] mx-auto my-32">
+            <div class="text-center space-y-3">
+                <p class="font-semibold text-[#797C86] text-[20px] uppercase">Specialties</p>
+                <h1 class="font-bold xl:text-[48px] text-[30px] text-[#FFFFFF] uppercase">My specialities</h1>
+                <p class="font-normal text-[18px] text-[#797C86]">As a web designer with four years of experience, I
+                    specialize in creating visually appealing <br> and user-friendly websites. My expertise includes
+                    responsive design.</p>
+            </div>
+            <div class="mt-10 grid gap-5 justify-center lg:grid-cols-4 md:grid-cols-3">
+                <div class="max-w-[283px] max-h-[320px] bg-[#0E0E10] p-5 space-y-5 text-center">
+                    <div class="flex justify-center items-center">
+                        <img src="./image/Web development.png" alt="Web_development">
+                    </div>
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">Front-End Development</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[320px] bg-[#0E0E10] p-5 space-y-5 text-center">
+                    <div class="flex justify-center items-center">
+                        <img src="./image/fi_12884741.png" alt="backend development">
+                    </div>
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">Back-End Development</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[320px] bg-[#0E0E10] p-5 space-y-5 text-center">
+                    <div class="flex justify-center items-center">
+                        <img src="./image/fi_14466854.png" alt="fullstack">
+                    </div>
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">Full-Stack Development</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[320px] bg-[#0E0E10] p-5 space-y-5 text-center">
+                    <div class="flex justify-center items-center">
+                        <img src="./image/fi_1149171.png" alt="security">
+                    </div>
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">Web Application Security</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[320px] bg-[#0E0E10] p-5 space-y-5 text-center">
+                    <div class="flex justify-center items-center">
+                        <img src="./image/fi_14666949.png" alt="ecommerce">
+                    </div>
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">E-commerce Development</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[320px] bg-[#0E0E10] p-5 space-y-5 text-center">
+                    <div class="flex justify-center items-center">
+                        <img src="./image/fi_2316109.png" alt="cloude">
+                    </div>
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">Cloud-Based Development</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[320px] bg-[#0E0E10] p-5 space-y-5 text-center">
+                    <div class="flex justify-center items-center">
+                        <img src="./image/fi_7991055.png" alt="web">
+                    </div>
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">Progressive Web Apps</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[320px] bg-[#0E0E10] p-5 space-y-5 text-center">
+                    <div class="flex justify-center items-center">
+                        <img src="./image/fi_12133548.png" alt="ai">
+                    </div>
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">AI-Powered Development</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- recent work start -->
+        <section class="max-w-[1280px] mx-auto my-32">
+            <div class="text-center space-y-3">
+                <p class="font-semibold text-[#797C86] text-[20px] uppercase">Recent works</p>
+                <h1 class="font-bold xl:text-[48px] text-[30px] text-[#FFFFFF] uppercase">My Recent works</h1>
+                <p class="font-normal text-[18px] text-[#797C86]">As a web designer with four years of experience, I
+                    specialize in creating visually appealing <br> and user-friendly websites. My expertise includes
+                    responsive design.</p>
+            </div>
+            <div class="mt-10 grid gap-5 justify-center lg:grid-cols-3 md:grid-cols-2">
+                <div class="max-w-[358px] max-h-[268px] bg-[#0E0E10] space-y-5 text-center">
+                    <div class="flex justify-center items-center w-full h-full">
+                        <img class="h-[220px] mt-2 rounded-2xl" src="./image/weather_app.PNG" alt="">                    </div>
+                </div>
+
+                <div class="max-w-[358px] max-h-[268px] bg-[#0E0E10] space-y-5 text-center">
+                    <div class="flex justify-center items-center w-full h-full">
+                        <img class="h-[220px] mt-2 rounded-2xl" src="./image/weather_app.PNG" alt="">                    </div>
+                </div>
+
+                <div class="max-w-[358px] max-h-[268px] bg-[#0E0E10] space-y-5 text-center">
+                    <div class="flex justify-center items-center w-full h-full">
+                        <img class="h-[220px]  mt-2 rounded-2xl" src="./image/weather_app.PNG" alt="">                    </div>
+                </div>
+
+                <div class="max-w-[358px] max-h-[268px] bg-[#0E0E10] space-y-5 text-center">
+                    <div class="flex justify-center items-center w-full h-full">
+                        <img class="h-[220px] mt-2 rounded-2xl" src="./image/weather_app.PNG" alt="">                    </div>
+                </div>
+
+                <div class="max-w-[358px] max-h-[268px] bg-[#0E0E10] space-y-5 text-center">
+                    <div class="flex justify-center items-center w-full h-full">
+                        <img class="h-[220px]  mt-2 rounded-2xl" src="./image/weather_app.PNG" alt="">                    </div>
+                </div>
+
+                <div class="max-w-[358px] max-h-[268px] bg-[#0E0E10] space-y-5 text-center">
+                    <div class="flex justify-center items-center w-full h-full">
+                        <img class="h-[220px]  mt-2 rounded-2xl" src="./image/weather_app.PNG" alt="">                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- service part start -->
+        <section class="max-w-[1280px] mx-auto my-32">
+            <div class="text-center space-y-3">
+                <p class="font-semibold text-[#797C86] text-[20px] uppercase">Services</p>
+                <h1 class="font-bold xl:text-[48px] text-[30px] text-[#FFFFFF] uppercase">My other services</h1>
+                <p class="font-normal text-[18px] text-[#797C86]">As a web designer with four years of experience, I
+                    specialize in creating visually appealing <br> and user-friendly websites. My expertise includes
+                    responsive design.</p>
+            </div>
+            <div class="mt-10 grid gap-5 justify-center lg:grid-cols-4 md:grid-cols-3">
+                <div class="max-w-[283px] max-h-[220px] bg-[#1C1C21] p-5 space-y-5 text-center">
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">Website Development</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[220px] bg-[#1C1C21] p-5 space-y-5 text-center">
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">E-Commerce Development</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[220px] bg-[#1C1C21] p-5 space-y-5 text-center">
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">Web App Development</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[220px] bg-[#1C1C21] p-5 space-y-5 text-center">
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]"> API Dev. & Integration</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[220px] bg-[#1C1C21] p-5 space-y-5 text-center">
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">Cloud-Based Solutions</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[220px] bg-[#1C1C21] p-5 space-y-5 text-center">
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">Web Perform. Optimization</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[220px] bg-[#1C1C21] p-5 space-y-5 text-center">
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">(SEO) Services</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+
+                <div class="max-w-[283px] max-h-[220px] bg-[#1C1C21] p-5 space-y-5 text-center">
+                    <h2 class="font-bold text-[18px] text-[#E6E6E6]">Website Maint. & Support</h2>
+                    <p class="font-normal text-[14px] text-[#E6E6E682]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- faq part start -->
+        <section class="max-w-[1280px] mx-auto my-32 space-y-10">
+            <div class="pb-5">
+                <h3 class="font-semibold text-[20px] text-[#797C86] uppercase">FAQ’s</h3>
+                <h2 class="font-semibold text-[48px] text-[#FFFFFF] uppercase">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="flex justify-between border-t-[1px] border-[#1C1C21] pt-10">
+                <div>
+                    <h2 class="font-semibold text-[20px] text-[#AFB0B6] uppercase">What areas of web development do you
+                        focus on?</h2>
+                    <p class="font-normal text-[18px] text-[#797C86]">I specialize in web development, creating websites
+                        that deliver unique user experiences.</p>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./image/Button.png" alt="arrow">
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex justify-between border-t-[1px] border-[#1C1C21] pt-10">
+                <div>
+                    <h2 class="font-semibold text-[20px] text-[#AFB0B6] uppercase">How can I schedule a web development
+                        consultation with you?</h2>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./image/Button (1).png" alt="arrow">
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex justify-between border-t-[1px] border-[#1C1C21] pt-10">
+                <div>
+                    <h2 class="font-semibold text-[20px] text-[#AFB0B6] uppercase">Can I choose a specific platform for
+                        my website?</h2>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="../image/Button (1).png" alt="arrow">
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex justify-between border-t-[1px] border-[#1C1C21] pt-10">
+                <div>
+                    <h2 class="font-semibold text-[20px] text-[#AFB0B6] uppercase">What tools and technologies do you
+                        use for web development?</h2>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./image/Button (1).png" alt="arrow">
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex justify-between border-t-[1px] border-[#1C1C21] pt-10">
+                <div>
+                    <h2 class="font-semibold text-[20px] text-[#AFB0B6] uppercase">Can I choose a specific platform for
+                        my website?</h2>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./image/Button (1).png" alt="arrow">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- link part start -->
+        <section class="border-t-[1px] border-[#2F2F37]">
+            <div
+                class="max-w-[1280px] mx-auto my-20 grid justify-center lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2  gap-14">
+                <div>
+                    <h1 class="font-semibold text-[18px] text-[#797C86] uppercase pb-5">Solutions</h1>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Glintopia</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Fluxway</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Fable’s</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] mt-5">PowerCore</a>
+                </div>
+
+                <div>
+                    <h1 class="font-semibold text-[18px] text-[#797C86] uppercase pb-5">Customers</h1>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Glintopia</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Fluxway</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Fable’s</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] mt-5">PowerCore</a>
+                </div>
+
+                <div>
+                    <h1 class="font-semibold text-[18px] text-[#797C86] uppercase pb-5">Partners</h1>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Glintopia</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Fluxway</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Fable’s</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] mt-5">PowerCore</a>
+                </div>
+
+                <div>
+                    <h1 class="font-semibold text-[18px] text-[#797C86] uppercase pb-5">Stakeholders</h1>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Glintopia</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Fluxway</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Fable’s</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] mt-5">PowerCore</a>
+                </div>
+
+                <div>
+                    <h1 class="font-semibold text-[18px] text-[#797C86] uppercase pb-5">Offerings</h1>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Visions</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">Gatherings</a>
+                    <br> <br>
+                    <a href=""
+                        class="font-medium text-[18px] text-[#F2F2F3] uppercase border-b-[1px] border-[#2F2F37] pt-5">BizSphere</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t-[1px] border-[#2F2F37]">
+        <div class="max-w-[1280px] mx-auto my-20 flex justify-between sm:flex-row flex-col gap-5">
+            <div>
+                <h2 class="font-normal text-[18px] text-[#797C86]">Terms & Conditions | Privacy Policy</h2>
+            </div>
+            <div>
+                <h2 class="font-normal text-[18px] text-[#797C86]">© 2024 All rights reserved.</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
